@@ -1,0 +1,41 @@
+html>
+    <head>
+        <title>Pemograman Web Pertemuan 15</title>
+    </head>
+<h3>Form Pendaftaran Mahasiswa</h3>
+<form action="per15output.php" method="post">
+<form>
+    <table>
+        <tr>
+            <td>Nama</td>
+            <td><input type="text" name="nama"></td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td><input type="radio" name="jenis" value="Pria">Pria
+                <input type="radio" name="jenis" value="Wanita" >Wanita
+            </td>
+        </tr>
+        <tr>
+            <td>Prodi</td>
+            <td><select name="prodi">
+                <option>Teknik Informatika</option>
+                <option>Sistem Informasi</option>
+            </select>
+            </td>
+        <tr>
+            <td>Hobi</td>
+            <td>
+            <input type="checkbox" name="hoby" value="Coding">Coding
+            <input type="checkbox" name="hobi1" value="Jalan-jalan">Jalan-jalan
+            <input type="checkbox" name="hobi2" value="Makan">Makan
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" name="submit" value="Kirim">
+            </td>       
+        </tr>    
+    </table>
+</form>
+</html>
